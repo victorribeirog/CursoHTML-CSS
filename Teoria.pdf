@@ -1,0 +1,30 @@
+    Conceitos html
+
+* Para criar o código base HTML, digite apenas "!".
+* Alterar linha lang para "pt-br".
+* Utilizar a tag h1 para criar um título.
+* Para criar uma linha horizontal utilize a tag hr.
+* Para criar um parágrafo utilize a tag p.
+* Para quebrar uma linha utilize a tag br no local onde desejar quebrar a linha.
+* Para fazer com que a tag apareça no texto utilize &lt;"tag"&gt;
+* Para inserir um comentário no código utilize <!-->
+* Alguns simbolos especiais:
+    &reg - Marca registrada ®
+    &copy - Copyright ©
+    &trade - Trade Mark ™ 
+    &Euro - Euro €
+    &Delta - Delta  Δ 
+    &uarr - Seta cima ↑
+* Para inserir emojis utilizar o site emojipedia.org
+* Sites para imagens com domínios públicos:
+    UnSplash
+    Pexels
+    FreePik
+    LibreShoy
+* Tipos de Imagens:
+    JPG: gerar aquivos muito pequenos e que ocupam pouco espaço em disco.
+    PNG: capacidade de configurar a opacidade de cada pixel
+* Adicionando Imagens:
+    Utilizar a tag imagens.
+    No campo src="" apertar Ctrl+Espaço entre as aspas para selecionar a imagem.
+    
