@@ -27,4 +27,11 @@
 * Adicionando Imagens:
     Utilizar a tag imagens.
     No campo src="" apertar Ctrl+Espaço entre as aspas para selecionar a imagem.
-    
+* Sites para favicon
+    iconarchive
+    favicon.cc
+    favicon.io
+* Adicionando um favicon:
+    Na area <head> incluir a tag <link:favicon>
+    Em seguida adicionar o favicon
+* Os titulos em HTML possuem 6 níveis, <h1> - <h6>, onde um é sub-assunto do antecessor
