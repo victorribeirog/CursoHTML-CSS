@@ -34,4 +34,29 @@
 * Adicionando um favicon:
     Na area <head> incluir a tag <link:favicon>
     Em seguida adicionar o favicon
-* Os titulos em HTML possuem 6 níveis, <h1> - <h6>, onde um é sub-assunto do antecessor
+* Os titulos em HTML possuem 6 níveis, <h1> - <h6>, onde um é sub-assunto do antecessor.
+* Negrito e Itálico
+    Para criar um texto em negrito podemos utilziar a tag <b>, mas ela não possui significado. Assim o mais correto é utilizar a tag <strong>, mostrando que o termo delimitado possui força dentro da frase.
+    A mesma coisa acontece para palavras em itálico. Podemos utilizar a tag <i>, porém é mais recomendado utilizar a tag <em>, já que queremos dar ênfase ao termo.
+* Texto Marcado
+    Utilizando a tag <mark> podemos grifar o texto.
+    Para trocar a cor do "grifado" é possível utilizar o parameto style = "background-color" dentro da tag.
+    Para mudar a cor de tos os grifados devemos criar uma tag style dentro do cabeçalho, através de um seletor mark.
+* Texto grande e pequeno
+    Para criar textos grande podemos utilizar a tag <big>, no entanto não é mais utilizada pelo HTML5.
+    Para textos pequenos basta utilizar a tag <small>.
+* Texto deletado e inserido
+    Para demonstrar que um texto deve ser lido, mas desconsiderado utilizados a tag <del>.
+    Para demonstrar que um texto foi inserido depois utilizamos a tag <ins>.
+* Texto sobrescrito e subescrito
+    Para coisas do tipo x² utiliamos a tag <sup>.
+    Para coisas do tipo H2O utiliamos a tag <sub>.
+* Trechos de códigos e pré-formatação
+    Podemos utilizar a tag <code> para delimitar o código escrito.
+    Podemos também utilizar a tag <pre> para manter o texto pré-formatado, exatamente da forma como ele foi digitado.
+* Citações
+    Para criarmos uma citação simples utilizamos a tag <q> e automaticamento o texto aparecerá entre aspas.
+    No caso de citações longas, utilizamos a tag <blockquote>. Assim o texto ganha um recuo automaticamente.Podemos também colocar o link para o texto original, usando o parâmetro cite dentro da tag.
+* Abreviações
+    Ao escrever uma sigla e desejar deixar claro ao usuário o significado dela, use a tag <abbr>.
+
