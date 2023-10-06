@@ -62,4 +62,11 @@
 * Listas
     Ordenadas: Para criar uma lista ordenada usamos a tag <ol> para delimitar a lista e <li> para identificar cada item da lista. A tag <ol> possui um parâmetro type, onde configuramos o tipo de marcador da lista atual.
     Não Ordenadas: Para criar uma lista não ordenada usamos a tag <ul> para delimitar a lista e <li> para criar um dos seus itens internos.
+    É possível também misturar os tipos de listas.
+    Lista de Definições: É como se fosse um dicionário, com termos e descrições. Toda lista de definição está dentro de uma tag <dl>. Cada termo é <dt> e cada descrição é um <dd>.
+*Links
+    Para criar um hyperlink, devemos criar âncoras através da tag <a>, adicionando o linke em href.
+    Para poder controlar onde o site destino vai abrir, podemos usar o atributo target, que suporta os seguintes valores:
+        - _blank vai abrir o link em uma nova janela em branco
+        - _self vai abrir o link na janela ou frame atual (padrão)
 
