@@ -59,4 +59,7 @@
     No caso de citações longas, utilizamos a tag <blockquote>. Assim o texto ganha um recuo automaticamente.Podemos também colocar o link para o texto original, usando o parâmetro cite dentro da tag.
 * Abreviações
     Ao escrever uma sigla e desejar deixar claro ao usuário o significado dela, use a tag <abbr>.
+* Listas
+    Ordenadas: Para criar uma lista ordenada usamos a tag <ol> para delimitar a lista e <li> para identificar cada item da lista. A tag <ol> possui um parâmetro type, onde configuramos o tipo de marcador da lista atual.
+    Não Ordenadas: Para criar uma lista não ordenada usamos a tag <ul> para delimitar a lista e <li> para criar um dos seus itens internos.
 
