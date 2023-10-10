@@ -64,9 +64,15 @@
     Não Ordenadas: Para criar uma lista não ordenada usamos a tag <ul> para delimitar a lista e <li> para criar um dos seus itens internos.
     É possível também misturar os tipos de listas.
     Lista de Definições: É como se fosse um dicionário, com termos e descrições. Toda lista de definição está dentro de uma tag <dl>. Cada termo é <dt> e cada descrição é um <dd>.
-*Links
-    Para criar um hyperlink, devemos criar âncoras através da tag <a>, adicionando o linke em href.
+* Links
+    Para criar um hyperlink, devemos criar âncoras através da tag <a>, adicionando o link em href.
     Para poder controlar onde o site destino vai abrir, podemos usar o atributo target, que suporta os seguintes valores:
         - _blank vai abrir o link em uma nova janela em branco
         - _self vai abrir o link na janela ou frame atual (padrão)
+    Existe um recurso para links que é indicar qual é a natureza do destino usando o atributo rel. Esse stributo aceita vários valores:
+        - next: indica que o link é para a próxima parte do documento atual.
+        - pre: indica que o link é para a parte anterior do documento atual.
+        - author: indica que é um link para o site do autor do artigo atual.
+        - external: indica que é um link para outro site que não faz parte do site atual.
+        - nofollow: indica que é um link para um site não endossado, como um link de patrocinio
 
