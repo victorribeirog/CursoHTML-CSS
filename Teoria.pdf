@@ -75,4 +75,14 @@
         - author: indica que é um link para o site do autor do artigo atual.
         - external: indica que é um link para outro site que não faz parte do site atual.
         - nofollow: indica que é um link para um site não endossado, como um link de patrocinio
+    Para criar links para efetuar downloads, basta fazer o link diretamente para o arquivo que se deseja baixar e adicionar o atributo "download" com o valor configurado para o nome do arquivo a ser baixado e o atributo "type" para indicar ao navegador que tipo de arquivo está sendo baixado.
+        - Alguns media types bem usados no nosso dia-a-dia:
+            ‣ application/zip       ‣ text/html
+            ‣ text/css              ‣ text/javascript
+            ‣ video/mp4             ‣ video/H264
+            ‣ video/JPEG            ‣ audio/aac
+            ‣ audio/mpeg            ‣ font/ttf
+            ‣ image/jpeg            ‣ image/png
+            
+
 
