@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esses site em vários dispositivos diferentes ou simplesmente aumente o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="./imagens/FotoP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="./imagens/FotoM.png" type="image/png">
+        <img src="./imagens/FotoG.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="./midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="./midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="./midia/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio <a href="./midia/guanacast-33.mp3">Clique aqui para baixar</a></p>
+    </audio>
+
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este vídeo está hospedado em meu próprio servidor</p>
+    <video controls width="560" poster autoplay loop="./imagens/FotoP.png">
+        <source src="./midia/meuVideo.mp4" type="video/mp4">
+        <source src="./midia/meuVideo.webm" type="video/webm">
+    </video>
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=eqToLW4xMMHfhusD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
