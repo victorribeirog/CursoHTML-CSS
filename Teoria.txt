@@ -113,5 +113,9 @@
     Para incorporar vídeos que você subiu no YouTube ou Vimeo, existem recursos que te dão o código pronto em HTML5. 
         No YouTube, abra o vídeo que você quer incorporar e clique no link COMPARTILHAR que fica abaixo do título. Ao clicar no link indicado anteriormente, uma janela vai aparecer, te dando as opções de compartilhamento. Escolha o item INCORPORAR.  
 
+*CSS
+    - CSS inline style: Técnica mais básica para aplicar estilos em áreas pontuais em nosso site, que é usando as CSS dentro de parâmetros de HTML5.
+    - CSS internal style: Para aplicar estilos de forma mais dinâmica e prática, podemos adicionar uma tag <style> dentro da área <head> do nosso documento HTML local.
+
 
 
