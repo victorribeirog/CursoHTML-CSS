@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(37, 37, 37);
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+p{
+    text-align: center;
+}
+a{
+    color: aliceblue;
+}

@@ -116,6 +116,8 @@
 *CSS
     - CSS inline style: Técnica mais básica para aplicar estilos em áreas pontuais em nosso site, que é usando as CSS dentro de parâmetros de HTML5.
     - CSS internal style: Para aplicar estilos de forma mais dinâmica e prática, podemos adicionar uma tag <style> dentro da área <head> do nosso documento HTML local.
+    - CSS external style: Manter as folhas de estilo fora do código HTML, além de uma maior organização faz com que tudo seja reaproveitado de maneira mais eficiente nas outras páginas do nosso site. Para isso, utilizamos a tag <link> especialmente configurada para trabalhar com arquivos externos de estilo. Essa tag deve ser colocada dentro da área <head> do seu documento HTML.
+    
 
 
 
