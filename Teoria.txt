@@ -117,7 +117,44 @@
     - CSS inline style: Técnica mais básica para aplicar estilos em áreas pontuais em nosso site, que é usando as CSS dentro de parâmetros de HTML5.
     - CSS internal style: Para aplicar estilos de forma mais dinâmica e prática, podemos adicionar uma tag <style> dentro da área <head> do nosso documento HTML local.
     - CSS external style: Manter as folhas de estilo fora do código HTML, além de uma maior organização faz com que tudo seja reaproveitado de maneira mais eficiente nas outras páginas do nosso site. Para isso, utilizamos a tag <link> especialmente configurada para trabalhar com arquivos externos de estilo. Essa tag deve ser colocada dentro da área <head> do seu documento HTML.
-    
+
+*Cores
+
+Cor                Associada a                    Usar em                              Evitar
+vermelho      amor, emoção, energia,    comida, moda, entretenimento,           luxo, natureza, serviços
+              raiva,perigo              serviços de emergência e saúde          em geral
+
+amarelo       felicidade, alegria,      dar luz, dar calma e felicidade,        pode indicar que algo é
+              otimismo, covardia        chamar atenção                          barato ou spam
+
+laranja       divertimento, ambição,    comércio eletrônico,entretenimento,     pode se tornar cansativo
+              calor,cautela             call-to-action                          se muito explorado
+
+verde         saúde, natureza,          relaxamento, turismo, financeiros,      luxo, tecnologia,
+              dinheiro, sorte, inveja   meio ambiente                           meninas adolescentes
+
+azul          competência, sabedoria,   tecnologia, medicina, ciências,         comida (reduz apetite)
+              calma, frio               governo
+
+roxo          criatividade, poder,      produtos de beleza, astrologia,         não prende muito a
+              sabedoria, mistério       ioga, espiritualidade, adolescente      atenção, indiferente
+
+marrom        terra, robustez,          alimentação, imobiliária, animais,      cor considerada
+              estabilidade, amizade     finanças                                conservadora
+
+preto         elegância, autoridade,    luxo, moda, marketing, cosméticos       desconforto e medo
+              mistério, morte
+
+branco        pureza, limpeza,          medicina, saúde, tecnologia, luxo       não chama atenção,
+              felicidade, segurança     (com preto, ouro, cinza)                deve ser combinado
+
+cinza         formalidade,sofisticação, bens de luxo, efeito calmante           dá a sensação de frieza
+              frieza, indiferença
+ 
+ rosa         amor, romance,            produtos femininos e cosméticos         pode tornar muito
+              sinceridade, cuidados                                             sentimental e doce
+ 
+
 
 
 
