@@ -234,8 +234,23 @@ cinza         formalidade,sofisticação, bens de luxo, efeito calmante         
         * truetype (ttf)
         * embedded-opentype
         * truetype-aat (Apple Advanced Typography)
-        * svg  
- 
+        * svg
+    - Indentar parágrafo
+        text-indent: 30px;
+
+* Seletores Personalizados
+    Para começar a dar mais poder às CSS, criando estilos personalizados, precisamos aprender a utilizar os seletores de id (#) e de class (.) de maneira eficiente.
+    Um id vai identificar um elemento único dentro da página atual. Essa identificação vai nos permitir criar um estilo especial para um elemento isolado. Já um class vai identificar uma classe à qual um ou mais elementos pertençam, compartilhando características em comum a todos os que façam parte desse grupo.
+    - Pseudo-classes e pseudo-elementos
+        Uma pseudo-classe CSS é uma palavra-chave adicionada às declarações de um seletor após um sinal de dois pontos e especificam um estado especial de um elemento.
+        Já um pseudo-elemento CSS é uma palavra-chave adicionada às declarações de um seletor após dois sinais de dois pontos e permitem que você formate um pedaço específico do elemento referenciado
+    - Resumindo:
+        #  = id
+        .  = class
+        :  = pseudo-class
+        :: = pseudo-element
+        >  = children
+
 
 
 
