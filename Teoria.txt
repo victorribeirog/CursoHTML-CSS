@@ -219,9 +219,22 @@ cinza         formalidade,sofisticação, bens de luxo, efeito calmante         
         Fontes Monoespaçadas: Essa é uma das categorias de fontes que vieram derivadas das duas categorias que vimos anteriormente, por isso existem fontes monoespaçadas com e sem serifas. A principal diferença desse tipo de fonte é o espaço horizontal (largura) ocupado por cada letra. Elas possuem a mesma largura para todas as letras. A principal vantagem no uso desse tipo de fonte é facilitar ao máximo a leitura das palavras, principalmente aquelas que requerem que você as reproduza. Usamos muito esse tipo de fonte para representar comandos de linguagens de programação de computadores.
         Fontes Script: Também chamadas de fontes handwriting, são aquelas que tentam imitar a escrita humana. Seu uso deve ser bem controlado e jamais será aplicado a textos muito longos, pois causam cansaço visual e tornam-se difíceis de ler.
         Fontes Display: Toda fonte que foge completamente das definições feitas pelas classificações acima são consideradas fontes display. São fontes com bastante efeitos visuais, enfeitadas e até mesmo curiosas. Também são chamadas de fontes comemorativas e algumas delas sequer representam letras, podendo ser desenhos de animais, objetos, pessoas, personagens de quadrinhos, etc. Essas fontes também são recomendadas para criar títulos em destaque e devem ser evitadas para textos médios ou longos.
-    - Tamanho de Fontes: Para especificar tamanho de fontes, existem várias medidas como cm (centímetros), in (polegadas), pt (pontos), pc (paicas), px (pixels), etc. Para tamanhos de fonte a serem exibidos na tela, o W3C recomenda o uso do px ou do em.
-    A medida em é uma das que gera mais dúvida nos alunos. Ela é uma medida referencial em relação ao tamanho original da fonte. O tamanho padrão de uma fonte é geralmente 16px, isso equivale a 1em. A partir daí, podemos configurar o tamanho de um título, por exemplo, como sendo 2 vezes maior que a fonte padrão usando o valor 2em para a propriedade.
-
+    - Tamanho de Fontes: Para especificar tamanho de fontes, existem várias medidas como cm (centímetros), in (polegadas), pt (pontos), pc (paicas), px (pixels), etc. Para tamanhos de fonte a serem exibidos na tela, o W3C recomenda o uso do px ou do em. A medida em é uma das que gera mais dúvida nos alunos. Ela é uma medida referencial em relação ao tamanho original da fonte. O tamanho padrão de uma fonte é geralmente 16px, isso equivale a 1em. A partir daí, podemos configurar o tamanho de um título, por exemplo, como sendo 2 vezes maior que a fonte padrão usando o valor 2em para a propriedade.
+    - Outros Estilos: Existem outras formatações muito usadas em CSS, que são as propriedades font-style para aplicar o itálico e font-weight para aplicar o negrito. O padrão para essas duas propriedades é o valor normal, mas podemos aplicar o valor itálico ao font-style usando italic (mais compatível) ou oblique (menos compatível). Já o negrito, pode ser aplicado por nomes como lighter, bold e bolder ou pelo peso numérico.
+    - Shorthands
+        Existe uma shorthand para fontes que é a propriedade font. No lugar de fazer várias configurações em múltiplas linhas, podemos simplificar tudo de maneira muito simples.
+        A ordem dos atributos de uma shorthand em CSS é importante. No caso da propriedade font, devemos informar, na ordem:
+            • font-style
+            • font-variant
+            • font-weight
+            • font-size/line-height
+            • font-family
+    - Tipos de format()
+        * opentype (otf)
+        * truetype (ttf)
+        * embedded-opentype
+        * truetype-aat (Apple Advanced Typography)
+        * svg  
  
 
 
