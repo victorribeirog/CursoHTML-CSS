@@ -251,6 +251,39 @@ cinza         formalidade,sofisticação, bens de luxo, efeito calmante         
         :: = pseudo-element
         >  = children
 
+* Modelo de Caixas
+    De forma simples e objetiva, baseado em um conceito chamado “box model”, a grande maioria dos elementos HTML que temos no nosso site são como caixas. Elas são containers que armazenam conteúdos ou até mesmo outras caixas.
+    Por padrão, toda caixa é composta apenas pelo conteúdo e não possui padding, nem border, nem outline e nem margin. Uma exceção curiosa é o elemento <body> que já vem com uma margin de 8px.
+    Todo conteúdo possui uma largura (width) e uma altura (height) e a esse conjunto de propriedades, damos o nome de box-size (tamanho da caixa). O tamanho da caixa não inclui as medidas de padding, border, outline e margin.
+    Depois do conteúdo e de seu tamanho, vamos nos focar na borda que fica em volta dele. Ela pode ter uma espessura, uma cor e um formato.
+    Entre a borda e o conteúdo - da borda para dentro - temos o preenchimento (padding) e da borda para fora, temos a margem (margin).
+    Entre a margem e a borda, podemos determinar o contorno (outline) que é muito pouco utilizado, mas existe. Ele é um traçado visual que podemos criar fora da borda e o cálculo da sua espessura faz parte da margem estabelecida.
+    Tipos de Caixa: Dependendo do comportamento da caixa, podemos classificar um elemento em uma de duas categorias:
+        - Caixa do tipo block-level
+            Um elemento dito block-level sempre vai se iniciar em uma nova linha e vai ocupar a largura total do elemento onde ele está contido. Se não estiver contido em nenhuma outra caixa, ele vai ocupar 100% da largura do <body>.
+            O elemento block-level mais conhecido é o <div> e suas variações semânticas modernas da HTML5, como <main>, <section>, <aside>, etc.
+        - Caixa do tipo inline-level
+            Um elemento do tipo inline-level não vai começar em uma nova linha, e sim no ponto exato onde foram definidos. E a largura dele vai ocupar apenas o tamanho relativo ao seu conteúdo.
+    Grouping Tags e Semantic Tags
+        Com o surgimento da HTML5, surgiram as tags semânticas de agrupamento. Isso não significa que as <div> e <span> (agora chamadas de não-semânticas) deixaram de existir ou ficaram obsoletas, mas seu uso agora faz menos sentido, pois temos tagspara dividir as partes do nosso documento HTML.
+        - Header: Cria áreas relativas a cabeçalhos. Pode ser o cabeçalho principal de um site ou até mesmo o cabeçalho de uma seção ou artigo. Normalmente inclui títulos <h1> - <h6> e subtítulos. Podem também conter menus de navegação.
+        - Nav: Define uma área que possui os links de navegação pela estrutura de páginas que vão compor o website. Um <nav> pode estar dentro de um <header>.
+        - Main: É um agrupador usado para delimitar o conteúdo principal do nosso site. Normalmente concentra as seções, artigos e conteúdos periféricos.
+        - Section: Cria seções para sua página. Ela pode conter o conteúdo diretamente no seu corpo ou dividir os conteúdos em artigos com conteúdos específicos. Segundo a documentação oficial da W3C, “uma seção é um agrupamento temático de conteúdos, tipicamente com um cabeçalho”.
+        - Article: Um artigo é um elemento que vai conter um conteúdo que pode ser lido de forma independente e dizem respeito a um mesmo assunto. Podemos usar um <article> para delimitar um post de blog ou fórum, uma notícia, etc.
+        - Aside: Delimita um conteúdo periférico e complementar ao conteúdo principal de um artigo ou seção. Normalmente um conteúdo <aside> está posicionado ao lado de um determinado texto ou até mesmo no meio dele, exatamente como fizemos no bloco de texto apresentado anteriormente, falando sobre “MÚLTIPLOS NÍVEIS”.
+        Footer: Cria um rodapé para o site inteiro, seção ou artigo. É um conteúdo que não faz parte diretamente do conteúdo nem é um conteúdo periférico (o que caracterizaria um <aside>), mas possui informações sobre autoria do conteúdo, links adicionais, mapa do site, documentos relacionados.
+    Sombras nas caixas
+        As sombras são muito úteis para dar volume, para dar a sensação de que as caixas estão ali realmente.
+        Assim que adicionamos a propriedade box-shadow e seus quatro valores. A ordem é sempre essa:
+            1. Deslocamento horizontal (h-offset): quanto a sombra vai andar para o lado direito (valores negativos causam deslocamento para a esquerda)
+            2. Deslocamento vertical (v-offset): quanto a sombra vai andar para baixo (valores negativos causam deslocamento para cima)
+            3. Embaçamento (blur): quanto a sombra vai se espalhar pelo fundo
+            4. Cor (color): cor da sombra. É possível usar transparência.
+    Bordas decoradas
+        As bordas das caixas não precisam ser sempre retangulares e podem ter alguns detalhes especiais.
+        - Vértices arredondados: Podemos arredondar os vértices usando uma declaração simples usando a propriedade border-radius. Se for necessário, podemos indicar quatro medidas diferentes, uma para cada vértice
+        
 
 
 
