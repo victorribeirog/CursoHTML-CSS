@@ -300,7 +300,28 @@ cinza         formalidade,sofisticação, bens de luxo, efeito calmante         
         2. Deslocamento vertical (v-offset): quanto a sombra vai andar para baixo (valores negativos causam deslocamento para cima).
         3. Embaçamento (blur): quanto a sombra vai se espalhar pelo fundo.
         4. Cor (color): cor da sombra. É possível usar transparência.
-        
+
+* Imagens de fundo
+    É possível aplicar imagens ao fundo de qualquer elemento exibido visualmente em HTML utilizando div.
+    Quando o tamanho da caixa é maior que o tamanho da imagem, por padrão, a imagem será repetida nos dois eixos (eixo x e eixo y) quantas vezes for necessário para cobrir a extensão da caixa contêiner.É possível alterar esse comportamento usando a propriedade background-repeat.
+    Além de escolher o nível de repetição do background, também podemos mudar a posição de referência de início das repetições. Por padrão, é considerado o canto esquerdo superior (left top), mas podemos ter várias opções.
+    Outra coisa que podemos fazer é redimensionar a imagem para forçá-la a caber na caixa. Por padrão, nenhum redimensionamento será aplicado, e a imagem será exibida do seu tamanho natural. Porém, podemos usar a propriedade background-size para alterar esse comportamento.
+    Os valores aceitos por essa propriedade são:
+        - auto (padrão): a imagem de fundo será aplicada em seu tamanho original.
+        - [length]px [length]%: Redimensiona a largura da imagem e faz a altura se adaptar automaticamente. Podemos também informar as duas dimensões na sequência ou também usar valores percentuais.
+        -cover: Muda o tamanho da imagem para que ela seja sempre totalmente exibida na tela, sem nenhum corte. 
+        contain: Redimensiona a imagem para que ela cubra o contêiner, mesmo que para isso ocorram alguns eventuais cortes.
+    A última propriedade que podemos configurar é o vínculo (attachment) da imagem de fundo com o resto do documento, principalmente se o conteúdo for maior do que a altura da página e seja necessário vazar uma rolagem vertical. A propriedade background-attachment aceita os valores:
+        scroll (padrão): A imagem de fundo vai rolar junto com o conteúdo.
+        fixed: A imagem de fundo vai ficar fixada enquanto o conteúdo vai sendo rolado.
+    Existe também a possibilidade de usar uma shorthand para simplificar o uso de propriedades que se apliquem ao
+fundo de uma caixa. A propriedade abreviada background pode ser declarada agrupando as seguintes configurações:
+        • background-color
+        • background-image
+        • background-position
+        • background-repeat
+        • background-attachment
+
 
 
 
