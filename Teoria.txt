@@ -282,7 +282,24 @@ cinza         formalidade,sofisticação, bens de luxo, efeito calmante         
             4. Cor (color): cor da sombra. É possível usar transparência.
     Bordas decoradas
         As bordas das caixas não precisam ser sempre retangulares e podem ter alguns detalhes especiais.
-        - Vértices arredondados: Podemos arredondar os vértices usando uma declaração simples usando a propriedade border-radius. Se for necessário, podemos indicar quatro medidas diferentes, uma para cada vértice
+        - Vértices arredondados: Podemos arredondar os vértices usando uma declaração simples usando a propriedade border-radius. Se for necessário, podemos indicar quatro medidas diferentes, uma para cada vértice.
+
+* Variáveis em CSS
+    Para criarmos variáveis para nossas configurações, devemos definir uma área de definições dentro do seu estilo para uma pseudo-classe chamada :root, que definem as configurações para a raiz de uma árvore, que vai servir para o documento inteiro.
+    As variáveis personalizadas em CSS devem ter seus nomes iniciando com dois traços obrigatoriamente.
+
+* Seletor em CSS
+    Existe também um seletor especial das CSS que é o asterisco (*), ele tem uma função muito especial, pois basicamente ele aplica uma configuração padrão para TODOS os elementos do código HTML ao qual o estilo está sendo aplicado.
+
+* Espaçamento entre linhas
+    Outra configuração muito importante que podemos fazer para textos muito longos é o de espaçamento entre as linhas do nosso texto. Usando a propriedade line-height, podemos dizer qual é o tamanho do espaço entre uma linha e a outra do texto.O valor padrão na maioria dos navegadores é algo próximo ao 1.2em.
+
+* Sombras em textos
+    A propriedade text-shadow também pode ter quatro parâmetros principais:
+        1. Deslocamento horizontal (h-offset): quanto a sombra vai andar para o lado direito (valores negativos causam deslocamento para a esquerda).
+        2. Deslocamento vertical (v-offset): quanto a sombra vai andar para baixo (valores negativos causam deslocamento para cima).
+        3. Embaçamento (blur): quanto a sombra vai se espalhar pelo fundo.
+        4. Cor (color): cor da sombra. É possível usar transparência.
         
 
 
