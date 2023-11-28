@@ -316,11 +316,7 @@ cinza         formalidade,sofisticação, bens de luxo, efeito calmante         
         fixed: A imagem de fundo vai ficar fixada enquanto o conteúdo vai sendo rolado.
     Existe também a possibilidade de usar uma shorthand para simplificar o uso de propriedades que se apliquem ao
 fundo de uma caixa. A propriedade abreviada background pode ser declarada agrupando as seguintes configurações:
-        • background-color
-        • background-image
-        • background-position
-        • background-repeat
-        • background-attachment
+            color > image > repeat > attachment > position / size
 
 
 
