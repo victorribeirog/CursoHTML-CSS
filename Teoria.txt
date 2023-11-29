@@ -318,7 +318,26 @@ cinza         formalidade,sofisticação, bens de luxo, efeito calmante         
 fundo de uma caixa. A propriedade abreviada background pode ser declarada agrupando as seguintes configurações:
             color > image > repeat > attachment > position / size
 
-
+* Tabelas
+    Hierarquia de Tabelas (simples)
+        TABLE = tabela
+            TABLE ROW = linha da tabela
+                TABLE HEADER = cabeçalho da tabela
+                TABLE DATA = dado da tabela
+    Em CSS aplicar table {border-collapse : collapse} e td{border e padding}
+    Alinhamento
+        É possível alinhar horizontalmente através do text-align, mas também verticalmente com o vertical-align (top,bottom e middle).
+    Anatomia para tabelas grandes
+        TABLE
+            CAPTION
+            THEAD
+                TR,TD,TH 
+            TBODY
+                TR,TD,TH
+            TFOOT
+            TR,TD,TH
+    Escopo
+        Utilizado para delimitar o titulo de determinada coluna ou linha. scope(col, row).
 
 
 
