@@ -338,6 +338,16 @@ fundo de uma caixa. A propriedade abreviada background pode ser declarada agrupa
             TR,TD,TH
     Escopo
         Utilizado para delimitar o titulo de determinada coluna ou linha. scope(col, row).
+    Efeito Zebrado
+        Para criar efeito zebrado na tabela criar um tbody > tr:nth-child(2n) {background-color}, onde é o numero de intercalações.
+        É possivel também dividir em pares (even) e impares (odd) e assim, manipular separadamente.
+    Cabeçalho fixo em tabelas grandes
+        1º: adicionar position (relative) em table;
+        2º: criar thead > tr > th {position(sticky); top: -1px; background-color(igual do thead)};
+    Mesclagem de Células
+        Expandir em colular <td colspan = "x"><td>, onde x é o número de colunas a expandir.
+        O mesmo serve para expandir colunas, utilizando rowspan.
+        
 
 
 
