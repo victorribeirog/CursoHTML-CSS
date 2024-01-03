@@ -347,6 +347,8 @@ fundo de uma caixa. A propriedade abreviada background pode ser declarada agrupa
     Mesclagem de Células
         Expandir em colular <td colspan = "x"><td>, onde x é o número de colunas a expandir.
         O mesmo serve para expandir colunas, utilizando rowspan.
+    Tabela responsiva
+        Para fazer com que apenas a tabela fique responsiva coloque todo o conteudo de <table> dentro de uma <div> e configure o estilo da div com "overflow-x:auto"
 
 * Inline Frames
     Um iframe é basicamente uma “janela aberta” dentro da nossa página para apresentar o conteúdo de outras páginas.
@@ -358,7 +360,7 @@ fundo de uma caixa. A propriedade abreviada background pode ser declarada agrupa
         • yes - habilita a rolagem do conteúdo, mesmo que seu conteúdo não seja grande o suficiente para preencher o frame.
         • auto - (padrão) a rolagem é habilitada apenas se o conteúdo for maior que o tamanho do quadro estabelecido. 
     Acrescentamos uma frase entre <iframe> e </iframe> para que seja exibida caso o navegador do usuário não suporte o uso desse tipo de recurso. É interessante adicionar um link <a> a essa mensagem de erro para que o usuário possa visitar a página caso seu navegador não seja compatível com iframe.
-     
+
 
 
         
