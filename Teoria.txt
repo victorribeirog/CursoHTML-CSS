@@ -360,6 +360,15 @@ fundo de uma caixa. A propriedade abreviada background pode ser declarada agrupa
         • yes - habilita a rolagem do conteúdo, mesmo que seu conteúdo não seja grande o suficiente para preencher o frame.
         • auto - (padrão) a rolagem é habilitada apenas se o conteúdo for maior que o tamanho do quadro estabelecido. 
     Acrescentamos uma frase entre <iframe> e </iframe> para que seja exibida caso o navegador do usuário não suporte o uso desse tipo de recurso. É interessante adicionar um link <a> a essa mensagem de erro para que o usuário possa visitar a página caso seu navegador não seja compatível com iframe.
+    Cientes dos problemas que um iframe mal configurado pode trazer, a HTML5 implementou o novo recurso de sandbox. Uma caixa de areia (sandbox) é um ambiente controlado que permite exibir outros sites para seu visitante sem que ele possa “tomar controle” do site principal e aos dados do visitante. Quando habilitamos a sandbox em nosso iframe, automaticamente o site que está dentro do quadro perde algumas funcionalidades, dentre elas:
+        • Não pode mais enviar dados de formulários
+        • Não pode mais executar scripts
+        • Desabilita todo tipo de API, janelas modais e popups
+        • Desabilita todo tipo de plugin com <embed>, <object>,<applet>
+        • Evita que o site dentro do iframe assuma a navegação top level do navegador
+        • Bloqueia recursos como autoplay e foco automático em elementos de formulário
+     
+
 
 
 
