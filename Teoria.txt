@@ -367,6 +367,40 @@ fundo de uma caixa. A propriedade abreviada background pode ser declarada agrupa
         • Desabilita todo tipo de plugin com <embed>, <object>,<applet>
         • Evita que o site dentro do iframe assuma a navegação top level do navegador
         • Bloqueia recursos como autoplay e foco automático em elementos de formulário
+
+*Formulários
+    A estrutura básica de um formulário é a seguinte:
+    <form action="cadastro.php" method="get" autocomplete="off">
+        <p><label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobreneom: </label>
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+    A primeira e a última linhas vão delimitar o formulário. Tudo aquilo que estiver dentro desse par de tags será considerado como conteúdo dos campos. No exemplo acima, temos apenas um campo que vai aceitar um texto relativo ao nome da pessoa e um botão de submissão, que vai permitir enviar o formulário.
+    Adiciona-se o method e o action. O primeiro vai indicar o método de envio dos dados e o segundo vai dizer para onde os dados serão enviados.
+    Não existe nenhuma ligação semântica entre a caixa de texto e seu identificador. Para isso, vamos adicionar um <label> para que possa ser feito o relacionamento entre o campo e seu identificador Para que o <label> possa funcionar corretamente, a caixa de texto deverá ter um id.
+    Existem dois métodos para enviar os dados de um formulário: GET e POST.
+        Note que aquilo que você digitou no formulário apareceu na URL que está sendo apresentada no seu navegador. Isso é uma característica presente nos formulários com método GET, pois ele condensa todos os dados digitados pelo visitante e envia como parte do endereço acessado.
+        Já o método POST vai pegar os dados digitados e enviar diretamente no corpo da requisição HTTP que será feita quando seu visitante clicar para enviar o formulário. Sendo assim, os dados não vão aparecer na URL.
+        Podemos usar GET em um formulário contanto que:
+            • Os dados a serem enviados não sejam sensíveis, como endereços, números de documentos, senhas, etc.
+            • Tivermos formulários simples e que possam ser compartilhados facilmente através de uma URL. Por exemplo, o Google usa GET no seu formulário, pois você pode enviar um link para qualquer pessoa, já com a ação da busca embutida, como em http://google.com.br/search?q=Gustavo+Guanabara
+            • Os dados a serem enviados nunca ultrapassem 3000 bytes.
+            • Não contenha envio de arquivos como imagens (i.e. fotos de perfil), arquivos PDF, etc.
+        Já o método POST é mais recomendado para casos em que:
+            • Não queremos que os dados apareçam explicitamente na URL do navegador.
+            • Capturamos dados como senhas, documentos e outro tipo de dado sensível.
+            • Precisamos enviar muitos dados (acima de 3000 bytes ~ sem limites).
+            • Precisamos enviar imagens ou outros tipos de arquivos.
+        O name será bem útil durante o envio dos dados do formulário, independente do método escolhido para enviá-los. É ele que aparece na URL (ao usar GET) e no corpo do HTTP request (ao usar POST). É também através do name escolhido que vamos nos referenciar quando for a hora de programar o arquivo em PHP que vai receber esses dados.
+        Já o id será muito útil para fazer a ligação com o <label> (sempre use labels, por favor) e também será referenciado nos casos em que quisermos tratar esses dados usando JavaScript para realizar qualquer ação, como por exemplo, fazer validação local dos campos antes de enviá-los.
+        Utilize "required" na tag input para tornar o campo obrigatório e min/max lenght para estabelecer a quantidade de digitos.
+        Utilize o autocomplete tanto na tag form (on) quanto na input para facilitar o cadastro do usuário 
+
+        
+
+
      
 
 
