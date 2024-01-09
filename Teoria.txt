@@ -396,7 +396,14 @@ fundo de uma caixa. A propriedade abreviada background pode ser declarada agrupa
         O name será bem útil durante o envio dos dados do formulário, independente do método escolhido para enviá-los. É ele que aparece na URL (ao usar GET) e no corpo do HTTP request (ao usar POST). É também através do name escolhido que vamos nos referenciar quando for a hora de programar o arquivo em PHP que vai receber esses dados.
         Já o id será muito útil para fazer a ligação com o <label> (sempre use labels, por favor) e também será referenciado nos casos em que quisermos tratar esses dados usando JavaScript para realizar qualquer ação, como por exemplo, fazer validação local dos campos antes de enviá-los.
         Utilize "required" na tag input para tornar o campo obrigatório e min/max lenght para estabelecer a quantidade de digitos.
-        Utilize o autocomplete tanto na tag form (on) quanto na input para facilitar o cadastro do usuário 
+        Utilize o autocomplete tanto na tag form (on) quanto na input para facilitar o cadastro do usuário
+        É possivel agrupar formulários utilizando a tag "fieldset" e adicionar um título a ele com "legend".
+        É possivel utilizar o "input" do tipo "file" para enviar arquivos, mas para isso é necessário utilizar o metodo "post"
+        **Todo formulário que utiliza o metodo get tem um limete de 3 mil bytes para ser enviado
+        É possivel criar uma lista de seleção utilizando "select", "option" e "optgroup"
+        a tag "datalist" tem a mesma função de select, porem e possivel digitar a opção, além das já sugeridas.
+        Utilize "textarea" para criar um campo de mensagem para o usuario. Nesse caso é necessário utilizar o metodo post
+        A tag "output" é utilzada para calcular e mostrar coisas na tela
 
         
 
