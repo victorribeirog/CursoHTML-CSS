@@ -405,6 +405,19 @@ fundo de uma caixa. A propriedade abreviada background pode ser declarada agrupa
         Utilize "textarea" para criar um campo de mensagem para o usuario. Nesse caso é necessário utilizar o metodo post
         A tag "output" é utilzada para calcular e mostrar coisas na tela
 
+*Media Query
+    Elas são basicamente as media types somadas às media features, que são características extras que foram criadas para que possamos personalizar ainda mais nossas folhas de estilo. A seguir, enumero algumas dessas características que podem ser testadas:
+        • width e height
+        • device-height e device-width
+        • aspect-ratio e device-aspect-ratio
+        • orientation
+        • resolution
+        • color e color-index
+        • scan 
+        • grid
+    Media Queries nada mais são do que documentos de estilos criados para os diferentes tipos de midia. Ao utilizalos é possivel informar media types e (media features). Como por exemplo: 
+        <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
+
         
 
 
