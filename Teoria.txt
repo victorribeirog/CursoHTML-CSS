@@ -417,6 +417,21 @@ fundo de uma caixa. A propriedade abreviada background pode ser declarada agrupa
         • grid
     Media Queries nada mais são do que documentos de estilos criados para os diferentes tipos de midia. Ao utilizalos é possivel informar media types e (media features). Como por exemplo: 
         <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
+    Outra maneira é especificando regras @media dentro de uma
+    declaração de folhas de estilo. 
+    ** No meu caso só funciona se a declaração geral/all vier por ultimo
+    Mobile First: O Brasil é o país da América Latina com mais smartphones conectados de toda a América Latina, seguido da Argentina. Isso leva a uma grande probabilidade do seu site ser acessado em um dispositivo portátil conectado a um 4G (ou até 3G) e com tamanho limitado de tela.
+    Segundo o princípio fundamental da filosofia mobile first, pensar primeiro na versão móvel trás algumas vantagens: 
+        • Uma maior divulgação do site, pois como vimos anteriormente, ferramentas de busca vão valorizá-lo. 
+        • Uma melhor experiência do usuário, que vai ter acesso ao conteúdo que foi 
+        pensado para que pudesse ser consumido de forma mais confortável e sem 
+        confusões. 
+        • Aumento na credibilidade, já que os visitantes vão ter a percepção (ainda que 
+        inconsciente) de que quem criou o site se preocupou com a sua experiência. 
+        • Otimização do carregamento, uma vez que sofremos com conexões lentas e 
+        dispositivos populares sem tanto poder de processamento.
+     
+
 
         
 
